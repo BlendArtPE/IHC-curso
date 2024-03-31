@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 const Nav = ({ data }) => {
-  console.log(data.extra);
 
   return (
     <header className="flex flex-row justify-between items-center px-10 h-20 bg-red-500">

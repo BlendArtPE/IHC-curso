@@ -24,8 +24,8 @@
                 {
                     "title": "Galaxy S24 Ultra",
                     "subTitle": "¡Solo por lanzamiento!",
-                    "image": "imagen",
-                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                    "image": "https://placehold.co/1920x1080/orange/white",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque lorem, consectetur at porta.",
                     "buttons": [
                         "Más información",
                         "Comprar ahora"

@@ -2,7 +2,7 @@
     "name": "main",
     "sections": {
         "nav": {
-            "image": "Logo",
+            "image": "SAMSUNG",
             "navigation": [
                 "Tienda Online",
                 "AI",
@@ -14,9 +14,9 @@
                 "SmartThings"
             ],
             "extra": [
-                {"name": "Buscar", "logo": "Buscar"},
-                {"name": "Carro", "logo": "Carro"},
-                {"name": "Usuario", "logo": "Usuario"}
+                {"name": "Buscar", "logo": "fa-solid fa-magnifying-glass"},
+                {"name": "Carro", "logo": "fa-solid fa-cart-shopping"},
+                {"name": "Usuario", "logo": "fa-regular fa-user"}
             ]
         },
         "main": {

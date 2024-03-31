@@ -34,15 +34,15 @@
             ]
         },
         "categories": {
-            "title": "Nuestros recomendados",
+            "title": "Categorías",
             "options": [
-                {"image": "imagen", "name": "name"},
-                {"image": "imagen", "name": "name"},
-                {"image": "imagen", "name": "name"},
-                {"image": "imagen", "name": "name"},
-                {"image": "imagen", "name": "name"},
-                {"image": "imagen", "name": "name"},
-                {"image": "imagen", "name": "name"}
+                {"image": "imagen", "name": "name1"},
+                {"image": "imagen", "name": "name2"},
+                {"image": "imagen", "name": "name3"},
+                {"image": "imagen", "name": "name4"},
+                {"image": "imagen", "name": "name5"},
+                {"image": "imagen", "name": "name6"},
+                {"image": "imagen", "name": "name7"}
             ]
         },
         "offers": {

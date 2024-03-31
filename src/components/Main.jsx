@@ -1,14 +1,13 @@
 import PropTypes from "prop-types";
 
 const Main = ({ data }) => {
-  console.log(data);
 
   return (
-    <section className="">
-      {data.carrousel.map((main) => {
+    <>
+      {data.carrousel.map((main, index) => {
         return (
           // eslint-disable-next-line react/jsx-key
-          <div className="relative">
+          <main key={index} className="relative">
             <img
               src={main.image}
               className="w-screen h-screen object-cover"
@@ -31,10 +30,10 @@ const Main = ({ data }) => {
               </div>
               <i className="fa-solid fa-circle-chevron-right"></i>
             </div>
-          </div>
+          </main>
         );
       })}
-    </section>
+    </>
   );
 };
 

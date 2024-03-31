@@ -8,15 +8,15 @@ const Nav = ({ data }) => {
         <h1 className="font-bold text-lg">{data.image}</h1>
         <nav>
           <ul className="flex flex-row font-medium gap-3">
-            {data.navigation.map((nav) => {
-              return <li key={nav}>{nav}</li>;
+            {data.navigation.map((nav, index) => {
+              return <li key={index}>{nav}</li>;
             })}
           </ul>
         </nav>
       </div>
       <div className="flex gap-4 text-lg">
-        {data.extra.map((logo) => {
-          return <i key={logo.name} className={logo.logo}></i>;
+        {data.extra.map((logo, index) => {
+          return <i key={index} className={logo.logo}></i>;
         })}
       </div>
     </header>

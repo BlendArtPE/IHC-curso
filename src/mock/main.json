@@ -1,0 +1,493 @@
+{
+    "name": "main",
+    "sections": {
+        "nav": {
+            "image": "Logo",
+            "navigation": [
+                "Tienda Online",
+                "AI",
+                "Móviles",
+                "TV y Audio",
+                "Línea Blanca",
+                "Monitores",
+                "Accesorios",
+                "SmartThings"
+            ],
+            "extra": [
+                {"name": "Buscar", "logo": "Buscar"},
+                {"name": "Carro", "logo": "Carro"},
+                {"name": "Usuario", "logo": "Usuario"}
+            ]
+        },
+        "main": {
+            "carrousel": [
+                {
+                    "title": "Galaxy S24 Ultra",
+                    "subTitle": "¡Solo por lanzamiento!",
+                    "image": "imagen",
+                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                    "buttons": [
+                        "Más información",
+                        "Comprar ahora"
+                    ]
+                }
+            ]
+        },
+        "categories": {
+            "title": "Nuestros recomendados",
+            "options": [
+                {"image": "imagen", "name": "name"},
+                {"image": "imagen", "name": "name"},
+                {"image": "imagen", "name": "name"},
+                {"image": "imagen", "name": "name"},
+                {"image": "imagen", "name": "name"},
+                {"image": "imagen", "name": "name"},
+                {"image": "imagen", "name": "name"}
+            ]
+        },
+        "offers": {
+            "title": "Ofertas",
+            "subOffers": [
+                {
+                    "name": "SuperWeek",
+                    "imageMain": "image",
+                    "products": [
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        }
+                    ] 
+                },
+                {
+                    "name": "Móviles",
+                    "imageMain": "image",
+                    "products": [
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        }
+                    ] 
+                },
+                {
+                    "name": "Galaxy",
+                    "imageMain": "image",
+                    "products": [
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        }
+                    ] 
+                },
+                {
+                    "name": "TV & AV",
+                    "imageMain": "image",
+                    "products": [
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        }
+                    ] 
+                },
+                {
+                    "name": "Línea Blanca",
+                    "imageMain": "image",
+                    "products": [
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        }
+                    ] 
+                },
+                {
+                    "name": "Beneficios Lala",
+                    "imageMain": "image",
+                    "products": [
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        },
+                        {
+                            "discount": "20%",
+                            "image": "imagen",
+                            "title": "Producto",
+                            "information": "Información del producto"
+                        }
+                    ] 
+                }
+            ]
+        },
+        "mainProducts": [
+            {
+                "title": "Mobile",
+                "options": [
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "TV & AV",
+                "options": [
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Línea Blanca",
+                "options": [
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    },
+                    {
+                        "title": "Galaxy S24 Ultra",
+                        "subTitle": "¡Solo por lanzamiento!",
+                        "image": "imagen",
+                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "buttons": [
+                            "Más información",
+                            "Comprar ahora"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "recommendedProducts": {
+            "title": "Productos recomendados",
+            "products": [
+                {
+                    "image": "imagen",
+                    "title": "Galaxy A55",
+                    "stars": 5,
+                    "price": "S/. 3000",
+                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+                    "button": "Comprar ahora"
+                },
+                {
+                    "image": "imagen",
+                    "title": "Galaxy A55",
+                    "stars": 5,
+                    "price": "S/. 3000",
+                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+                    "button": "Comprar ahora"
+                },
+                {
+                    "image": "imagen",
+                    "title": "Galaxy A55",
+                    "stars": 5,
+                    "price": "S/. 3000",
+                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+                    "button": "Comprar ahora"
+                },
+                {
+                    "image": "imagen",
+                    "title": "Galaxy A55",
+                    "stars": 5,
+                    "price": "S/. 3000",
+                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+                    "button": "Comprar ahora"
+                }
+            ]
+        },
+        "footer": {
+            "options": [
+                {
+                    "title": "Te ayudamos",
+                    "subOptions": [
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala"
+                    ]
+                },
+                {
+                    "title": "Se parte de falabella.com",
+                    "subOptions": [
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala"
+                    ]
+                },
+                {
+                    "title": "Únete a nuestros programas",
+                    "subOptions": [
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala"
+                    ]
+                },
+                {
+                    "title": "Nuestras empresas",
+                    "subOptions": [
+                        "Lalalalala",
+                        "Gaytored",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala",
+                        "Lalalalala"
+                    ]
+                }
+            ],
+            "icons": [
+                {"name": "facebook", "logo": "facebook"},
+                {"name": "instagram", "logo": "instagram"},
+                {"name": "twitter", "logo": "twitter"}
+            ]
+        }
+    }
+}

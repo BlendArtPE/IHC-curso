@@ -342,9 +342,14 @@
                 }
             ],
             "icons": [
-                {"name": "facebook", "logo": "facebook"},
-                {"name": "instagram", "logo": "instagram"},
-                {"name": "twitter", "logo": "twitter"}
+                {"name": "facebook", "logo": "fa-brands fa-facebook"},
+                {"name": "instagram", "logo": "fa-brands fa-instagram"},
+                {"name": "twitter", "logo": "fa-brands fa-twitter"}
+            ],
+            "extras": [
+                "Términos y condiciones",
+                "Política de cookies",
+                "Política de privacidad"
             ]
         }
     }

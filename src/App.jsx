@@ -5,6 +5,7 @@ import Categories from "./components/Categories"
 import Offers from "./components/Offers"
 
 import RecommendedProducts from "./components/RecommendedProducts"
+import Footer from "./components/Footer"
 function App() {
 
   return (
@@ -21,6 +22,8 @@ function App() {
         <Offers data={index.sections.offers} />
         <div className="h-4"/>
         <RecommendedProducts data={index.sections.recommendedProducts} />
+        <div className="h-4"/>
+        <Footer data={index.sections.footer} />
     </>
   )
 }

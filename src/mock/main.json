@@ -47,182 +47,40 @@
         },
         "offers": {
             "title": "Ofertas",
+            "categories": [
+                "SuperWeek",
+                "Móviles",
+                "Preventa Galaxy A55|A35",
+                "TV & AV",
+                "Línea Blanca",
+                "Beneficios Samsung.com"
+            ],
             "subOffers": [
                 {
                     "name": "SuperWeek",
-                    "imageMain": "image",
+                    "imageMain": "https://placehold.co/1000x1000/orange/white",
                     "products": [
                         {
                             "discount": "20%",
-                            "image": "imagen",
+                            "image": "https://placehold.co/500x500/orange/red",
                             "title": "Producto",
                             "information": "Información del producto"
                         },
                         {
                             "discount": "20%",
-                            "image": "imagen",
+                            "image": "https://placehold.co/500x500/orange/blue",
                             "title": "Producto",
                             "information": "Información del producto"
                         },
                         {
                             "discount": "20%",
-                            "image": "imagen",
+                            "image": "https://placehold.co/500x500/orange/green",
                             "title": "Producto",
                             "information": "Información del producto"
                         },
                         {
                             "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        }
-                    ] 
-                },
-                {
-                    "name": "Móviles",
-                    "imageMain": "image",
-                    "products": [
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        }
-                    ] 
-                },
-                {
-                    "name": "Galaxy",
-                    "imageMain": "image",
-                    "products": [
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        }
-                    ] 
-                },
-                {
-                    "name": "TV & AV",
-                    "imageMain": "image",
-                    "products": [
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        }
-                    ] 
-                },
-                {
-                    "name": "Línea Blanca",
-                    "imageMain": "image",
-                    "products": [
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        }
-                    ] 
-                },
-                {
-                    "name": "Beneficios Lala",
-                    "imageMain": "image",
-                    "products": [
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
-                            "title": "Producto",
-                            "information": "Información del producto"
-                        },
-                        {
-                            "discount": "20%",
-                            "image": "imagen",
+                            "image": "https://placehold.co/500x500/orange/black",
                             "title": "Producto",
                             "information": "Información del producto"
                         }

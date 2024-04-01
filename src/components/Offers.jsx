@@ -1,10 +1,9 @@
 import PropTypes from "prop-types";
 
 const Offers = ({ data }) => {
-  console.log(data);
   return (
     <section>
-        <h2 className="text-center text-2xl font-bold mb-2">Ofertas</h2>
+        <h2 className="text-center text-2xl font-bold mb-2">{data.title}</h2>
         <ul className="flex justify-center font-medium text-lg gap-4 mb-5">
             {data.categories.map((categorie, index) => {
                 return (

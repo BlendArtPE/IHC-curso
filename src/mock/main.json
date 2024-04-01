@@ -259,7 +259,7 @@
             "title": "Productos recomendados",
             "products": [
                 {
-                    "image": "imagen",
+                    "image": "./categories/mando.webp",
                     "title": "Galaxy A55",
                     "stars": 5,
                     "price": "S/. 3000",
@@ -267,7 +267,7 @@
                     "button": "Comprar ahora"
                 },
                 {
-                    "image": "imagen",
+                    "image": "./categories/mando.webp",
                     "title": "Galaxy A55",
                     "stars": 5,
                     "price": "S/. 3000",
@@ -275,7 +275,7 @@
                     "button": "Comprar ahora"
                 },
                 {
-                    "image": "imagen",
+                    "image": "./categories/mando.webp",
                     "title": "Galaxy A55",
                     "stars": 5,
                     "price": "S/. 3000",
@@ -283,7 +283,7 @@
                     "button": "Comprar ahora"
                 },
                 {
-                    "image": "imagen",
+                    "image": "./categories/mando.webp",
                     "title": "Galaxy A55",
                     "stars": 5,
                     "price": "S/. 3000",

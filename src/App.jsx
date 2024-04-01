@@ -3,6 +3,8 @@ import Nav from "./components/Nav"
 import Main from "./components/Main"
 import Categories from "./components/Categories"
 import Offers from "./components/Offers"
+
+import RecommendedProducts from "./components/RecommendedProducts"
 function App() {
 
   return (
@@ -18,6 +20,7 @@ function App() {
         <div className="h-4"/>
         <Offers data={index.sections.offers} />
         <div className="h-4"/>
+        <RecommendedProducts data={index.sections.recommendedProducts} />
     </>
   )
 }

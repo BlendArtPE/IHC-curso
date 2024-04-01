@@ -91,51 +91,18 @@
         "mainProducts": [
             {
                 "title": "Mobile",
+                "categories": [
+                    "Galaxy S24 Ultra",
+                    "Galaxy S24 | S24+",
+                    "Mejores momentos del Galaxy Unpacked",
+                    "Serie Galaxy Tab S9",
+                    "Galaxy Watch6 | Watch6 Classic"
+                ],
                 "options": [
                     {
                         "title": "Galaxy S24 Ultra",
                         "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
+                        "image": "https://placehold.co/1920x1080/orange/white",
                         "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
                         "buttons": [
                             "Más información",
@@ -146,51 +113,18 @@
             },
             {
                 "title": "TV & AV",
+                "categories": [
+                    "The Freestyle",
+                    "Big TV OLED",
+                    "Neo QLED",
+                    "OLED",
+                    "The Frame"
+                ],
                 "options": [
                     {
                         "title": "Galaxy S24 Ultra",
                         "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
+                        "image": "https://placehold.co/1920x1080/orange/red",
                         "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
                         "buttons": [
                             "Más información",
@@ -201,51 +135,18 @@
             },
             {
                 "title": "Línea Blanca",
+                "categories": [
+                    "Bespoke",
+                    "Family Hub",
+                    "Bubble Smart",
+                    "Cocinas",
+                    "20 años de garantía Digital Inverter"
+                ],
                 "options": [
                     {
                         "title": "Galaxy S24 Ultra",
                         "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-                        "buttons": [
-                            "Más información",
-                            "Comprar ahora"
-                        ]
-                    },
-                    {
-                        "title": "Galaxy S24 Ultra",
-                        "subTitle": "¡Solo por lanzamiento!",
-                        "image": "imagen",
+                        "image": "https://placehold.co/1920x1080/orange/green",
                         "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
                         "buttons": [
                             "Más información",

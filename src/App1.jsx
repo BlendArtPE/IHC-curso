@@ -1,7 +1,7 @@
 import index from "./mock/main.json"
-import Nav from "./components/Nav"
-import Footer from "./components/Footer"
-import Profile from "./components/Profile"
+import Nav from "./components/General/Nav"
+import Footer from "./components/General/Footer"
+import Profile from "./components/Account/Profile"
 
 const App1 = () => {
   return (

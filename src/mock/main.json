@@ -2,21 +2,21 @@
     "name": "main",
     "sections": {
         "nav": {
-            "image": "SAMSUNG",
+            "image": {"href": "/", "logo": "SAMSUNG"},
             "navigation": [
-                "Tienda Online",
-                "AI",
-                "Móviles",
-                "TV y Audio",
-                "Línea Blanca",
-                "Monitores",
-                "Accesorios",
-                "SmartThings"
+                {"href": "/",  "name":"Tienda Online"},
+                {"href": "/",  "name":"AI"},
+                {"href": "/",  "name":"Móviles"},
+                {"href": "/",  "name":"TV y Audio"},
+                {"href": "/",  "name":"Línea Blanca"},
+                {"href": "/",  "name":"Monitores"},
+                {"href": "/",  "name":"Accesorios"},
+                {"href": "/",  "name":"SmartThings"}
             ],
             "extra": [
-                {"name": "Buscar", "logo": "fa-solid fa-magnifying-glass"},
-                {"name": "Carro", "logo": "fa-solid fa-cart-shopping"},
-                {"name": "Usuario", "logo": "fa-regular fa-user"}
+                {"href": "/search", "name": "Buscar", "logo": "fa-solid fa-magnifying-glass"},
+                {"href": "/shopping-cart", "name": "Carro", "logo": "fa-solid fa-cart-shopping"},
+                {"href": "/account", "name": "Usuario", "logo": "fa-regular fa-user"}
             ]
         },
         "main": {

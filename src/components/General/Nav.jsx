@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 const Nav = ({ data }) => {
@@ -5,18 +7,21 @@ const Nav = ({ data }) => {
   return (
     <header className="flex flex-row justify-between items-center px-10 h-20 bg-red-500">
       <div className="flex flex-row items-center gap-10">
-        <h1 className="font-bold text-lg">{data.image}</h1>
+        <Link className="font-bold text-lg" to={data.image.href}>{data.image.logo}</Link>
         <nav>
           <ul className="flex flex-row font-medium gap-3">
             {data.navigation.map((nav, index) => {
-              return <li key={index}>{nav}</li>;
+              return <Link key={index} to={nav.href} >{nav.name}</Link>;
             })}
           </ul>
         </nav>
       </div>
       <div className="flex gap-4 text-lg">
         {data.extra.map((logo, index) => {
-          return <i key={index} className={logo.logo}></i>;
+          return (
+          <Link key={index} to={logo.href}>
+            <i className={logo.logo}></i>
+          </Link>);
         })}
       </div>
     </header>

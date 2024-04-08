@@ -2,33 +2,24 @@ import PropTypes from 'prop-types'
 
 const MainProducts = ({data}) => {
   return (
-    <>
+    <div className='space-y-4'>
         {data.map((products, index) => {
             return (
                 <section key={index} className='relative text-center'>
-                    <img src={products.options[0].image} className='border-2 border-black' alt="" />
-                    <div className='absolute inset-x-0 top-8 space-y-4'>
-                        <h3 className='text-3xl font-bold'>{products.title}</h3>
-                        <ul className='flex justify-center gap-6 font-semibold'>
-                            {products.categories.map((categorie, index) => {
-                                return (
-                                    <li key={index}>{categorie}</li>
-                                )
-                            })}
-                        </ul>
-                    </div>
-                    <div className='absolute inset-x-0 bottom-12'>
+                    <img src={products.options[0].image} alt="" />
+                    
+                    <div className={`absolute inset-y-1/3 ${index % 2 === 0 ? "right-20" : "left-20"} w-72 text-white`}>
                         {products.options.map((option, index) => {
                             return (
-                                <div key={index} className='space-y-2'>
+                                <div key={index} className=' space-y-2'>
                                     <h3 className='text-3xl font-bold'>{option.title}</h3>
-                                    <div className='flex justify-center'>
-                                        <strong>{option.subTitle}</strong>
+                                    <div className='flex justify-right'>
+                                        {/* <strong>{option.subTitle}</strong> */}
                                         <p>{option.text}</p>
                                     </div>
                                     <div className="flex justify-center  items-center gap-4">
-                                        <a href="" className="font-bold underline underline-offset-4">{option.buttons[0]}</a>
-                                        <a href="" className="bg-black text-white rounded-full px-4 py-1">{option.buttons[1]}</a>
+                                        <a href="" className="font-semibold underline underline-offset-4">{option.buttons[0]}</a>
+                                        <a href="" className="bg-color-2 text-black font-bold rounded-full px-4 py-1">{option.buttons[1]}</a>
                                     </div>
                                 </div>
                             )
@@ -37,9 +28,21 @@ const MainProducts = ({data}) => {
                 </section>
             )
         })}
-    </>
+    </div>
   )
 }
+
+
+{/* <div className='absolute inset-x-0 top-8 space-y-4'>
+                        <h3 className='text-3xl font-bold'>{products.title}</h3>
+                        <ul className='flex justify-center gap-6 font-semibold'>
+                            {products.categories.map((categorie, index) => {
+                                return (
+                                    <li key={index}>{categorie}</li>
+                                )
+                            })}
+                        </ul>
+                    </div> */}
 
 MainProducts.propTypes = {
     data: PropTypes.object.isRequired

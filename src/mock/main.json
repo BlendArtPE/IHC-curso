@@ -2,47 +2,44 @@
     "name": "main",
     "sections": {
         "nav": {
-            "image": {"href": "/", "logo": "SAMSUNG"},
+            "image": {"href":"/", "img": "./logo.png", "alt": "SHOPP"},
             "navigation": [
-                {"href": "/",  "name":"Tienda Online"},
-                {"href": "/",  "name":"AI"},
-                {"href": "/",  "name":"Móviles"},
-                {"href": "/",  "name":"TV y Audio"},
-                {"href": "/",  "name":"Línea Blanca"},
-                {"href": "/",  "name":"Monitores"},
-                {"href": "/",  "name":"Accesorios"},
-                {"href": "/",  "name":"SmartThings"}
+                {"href": "/",  "name":"Inicio"},
+                {"href": "/",  "name":"Ofertas"},
+                {"href": "/",  "name":"Productos"},
+                {"href": "/",  "name":"Categorías"},
+                {"href": "/",  "name":"Extra"}
             ],
             "extra": [
                 {"href": "/search", "name": "Buscar", "logo": "fa-solid fa-magnifying-glass"},
                 {"href": "/shopping-cart", "name": "Carro", "logo": "fa-solid fa-cart-shopping"},
                 {"href": "/account", "name": "Usuario", "logo": "fa-regular fa-user"}
-            ]
+            ],
+            "burguer": {"href": "/menu", "name": "Menu", "logo": "fa-solid fa-bars"}
+
         },
         "main": {
             "carrousel": [
                 {
-                    "title": "Galaxy S24 Ultra",
+                    "title": "GAMING LAPTOP",
                     "subTitle": "¡Solo por lanzamiento!",
-                    "image": "https://placehold.co/1920x1080/orange/white",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque lorem, consectetur at porta.",
+                    "image": "./main.png",
+                    "text": "¡Descubre nuestra nueva laptop gaming de 16.5 pulgadas con un rendimiento aún más potente y un sistema de refrigeración mejorado!",
                     "buttons": [
                         "Más información",
-                        "Comprar ahora"
+                        "Comprar"
                     ]
                 }
             ]
         },
         "categories": {
-            "title": "Categorías",
+            "title": "Categorías resaltantes",
             "options": [
-                {"image": "imagen", "name": "name1"},
-                {"image": "imagen", "name": "name2"},
-                {"image": "imagen", "name": "name3"},
-                {"image": "imagen", "name": "name4"},
-                {"image": "imagen", "name": "name5"},
-                {"image": "imagen", "name": "name6"},
-                {"image": "imagen", "name": "name7"}
+                {"image": "./categories/i1.png", "name": "Laptops"},
+                {"image": "./categories/i2.png", "name": "Audífonos"},
+                {"image": "./categories/i3.png", "name": "TV y Video"},
+                {"image": "./categories/i4.png", "name": "Cámaras"},
+                {"image": "./categories/i5.png", "name": "Celulares"}
             ]
         },
         "offers": {
@@ -58,31 +55,31 @@
             "subOffers": [
                 {
                     "name": "SuperWeek",
-                    "imageMain": "https://placehold.co/1000x1000/orange/white",
+                    "imageMain": "./off1.png",
                     "products": [
                         {
-                            "discount": "20%",
-                            "image": "https://placehold.co/500x500/orange/red",
-                            "title": "Producto",
-                            "information": "Información del producto"
+                            "discount": "Preventa",
+                            "image": "./categories/i1.png",
+                            "title": "¡Nueva lenovo v15 G3 nuevo diseño!",
+                            "information": "25% descuento durante el mes de abril"
                         },
                         {
-                            "discount": "20%",
-                            "image": "https://placehold.co/500x500/orange/blue",
-                            "title": "Producto",
-                            "information": "Información del producto"
+                            "discount": "Oferta",
+                            "image": "./categories/i2.png",
+                            "title": "¡Lo nuevo en cancelacion de ruido!",
+                            "information": "15% por fin de ciclo."
                         },
                         {
-                            "discount": "20%",
-                            "image": "https://placehold.co/500x500/orange/green",
-                            "title": "Producto",
-                            "information": "Información del producto"
+                            "discount": "SuperWeek",
+                            "image": "./categories/i3.png",
+                            "title": "¡Compra tu TV favorita en COMBO!",
+                            "information": "Paga hasta en 200 cuotas sin intereses."
                         },
                         {
-                            "discount": "20%",
-                            "image": "https://placehold.co/500x500/orange/black",
-                            "title": "Producto",
-                            "information": "Información del producto"
+                            "discount": "Preventa",
+                            "image": "./categories/i4.png",
+                            "title": "¡Solo en preventa las nuevas cámaras Canon!",
+                            "information": "Hasta el 32 de diciembre"
                         }
                     ] 
                 }
@@ -100,10 +97,10 @@
                 ],
                 "options": [
                     {
-                        "title": "Galaxy S24 Ultra",
+                        "title": "Serie Galaxy S24",
                         "subTitle": "¡Solo por lanzamiento!",
-                        "image": "https://placehold.co/1920x1080/orange/white",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "image": "./p1.png",
+                        "text": "Con la serie S24, podrás dar rienda suelta a nuevos niveles de creatividad, productividad y posibilidades, empezando por el dispositivo más importante de tu vida. Tu teléfono inteligente.",
                         "buttons": [
                             "Más información",
                             "Comprar ahora"
@@ -122,10 +119,10 @@
                 ],
                 "options": [
                     {
-                        "title": "Galaxy S24 Ultra",
+                        "title": "Televisor Smart TV 65'' QLED 4K",
                         "subTitle": "¡Solo por lanzamiento!",
-                        "image": "https://placehold.co/1920x1080/orange/red",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "image": "./p2.png",
+                        "text": "Tecnología Dual LED, un contraste mejorado gracias a la innovadora tecnología de retroiluminación.",
                         "buttons": [
                             "Más información",
                             "Comprar ahora"
@@ -144,10 +141,10 @@
                 ],
                 "options": [
                     {
-                        "title": "Galaxy S24 Ultra",
+                        "title": "Canon EOS R5 C",
                         "subTitle": "¡Solo por lanzamiento!",
-                        "image": "https://placehold.co/1920x1080/orange/green",
-                        "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+                        "image": "./p3.png",
+                        "text": "Captura impresionantes vídeos 8K y fotos de 45 MP con nuestra cámara EOS Cinema más pequeña, preparada para todo.",
                         "buttons": [
                             "Más información",
                             "Comprar ahora"
@@ -160,35 +157,35 @@
             "title": "Productos recomendados",
             "products": [
                 {
-                    "image": "./categories/mando.webp",
-                    "title": "Galaxy A55",
+                    "image": "./categories/i1.png",
+                    "title": "Lenovo V15 G3",
                     "stars": 5,
-                    "price": "S/. 3000",
-                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+                    "price": "S/ 5,899",
+                    "text": "Desde s/300 al mes en 20 cuotas sin intereses. O aplican condiciones",
                     "button": "Comprar ahora"
                 },
                 {
-                    "image": "./categories/mando.webp",
-                    "title": "Galaxy A55",
+                    "image": "./categories/i2.png",
+                    "title": "Sennheiser Accentum",
                     "stars": 5,
-                    "price": "S/. 3000",
-                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+                    "price": "S/ 799",
+                    "text": "Desde s/80 al mes en 10 cuotas sin intereses. O aplican condiciones",
                     "button": "Comprar ahora"
                 },
                 {
-                    "image": "./categories/mando.webp",
-                    "title": "Galaxy A55",
+                    "image": "./categories/i3.png",
+                    "title": "Smart TV LG 4K 50",
                     "stars": 5,
-                    "price": "S/. 3000",
-                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+                    "price": "S/ 7,199",
+                    "text": "Desde s/200 al mes en 36 cuotas sin intereses. O aplican condiciones",
                     "button": "Comprar ahora"
                 },
                 {
-                    "image": "./categories/mando.webp",
-                    "title": "Galaxy A55",
+                    "image": "./categories/i5.png",
+                    "title": "iPhone 15 Pro",
                     "stars": 5,
-                    "price": "S/. 3000",
-                    "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+                    "price": "S/ 4,999",
+                    "text": "Desde s/220 al mes en 24 cuotas sin intereses. O aplican condiciones",
                     "button": "Comprar ahora"
                 }
             ]
@@ -196,62 +193,55 @@
         "footer": {
             "options": [
                 {
-                    "title": "Te ayudamos",
+                    "title": "Productos y servicios",
                     "subOptions": [
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala"
+                        "Smartphones",
+                        "Televisores",
+                        "Audio y Tvs",
+                        "Cámaras"
                     ]
                 },
                 {
-                    "title": "Se parte de falabella.com",
+                    "title": "Tienda",
                     "subOptions": [
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala"
+                        "Promociones",
+                        "Preguntas frecuentes",
+                        "Cambios y devoluciones",
+                        "Bases y condiciones de promociones"
                     ]
                 },
                 {
-                    "title": "Únete a nuestros programas",
+                    "title": "Soporte",
                     "subOptions": [
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala"
+                        "Contáctanos Tienda Online",
+                        "Servicio técnico",
+                        "Correo electrónico",
+                        "Soporte técnico"
                     ]
                 },
                 {
-                    "title": "Nuestras empresas",
+                    "title": "Sobre Shopp",
                     "subOptions": [
-                        "Lalalalala",
-                        "Gaytored",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala",
-                        "Lalalalala"
+                        "Información de la compañía",
+                        "Noticias",
+                        "Área de negocios",
+                        "Identidad de la marca"
                     ]
                 }
             ],
             "icons": [
                 {"name": "facebook", "logo": "fa-brands fa-facebook"},
+                {"name": "twitter", "logo": "fa-brands fa-x-twitter"},
                 {"name": "instagram", "logo": "fa-brands fa-instagram"},
-                {"name": "twitter", "logo": "fa-brands fa-twitter"}
+                {"name": "instagram", "logo": "fa-brands fa-google"},
+                {"name": "instagram", "logo": "fa-brands fa-youtube"}
             ],
             "extras": [
                 "Términos y condiciones",
                 "Política de cookies",
                 "Política de privacidad"
-            ]
+            ],
+            "copyright": "TODOS LOS DERECHOS RESERVADOS ©"
         }
     }
 }

@@ -3,15 +3,15 @@ import PropTypes from 'prop-types'
 const Categories = ({data}) => {
     
   return (
-    <section className='max-w-screen-xl space-y-4 mx-auto '>
-        <h1 className='text-center text-2xl font-bold'>{data.title}</h1>
-        <div className='grid grid-cols-7'>
+    <section className='mx-auto xl:max-w-screen-lg max-w-screen-sm space-y-8 '>
+        <h1 className=' text-2xl font-semibold md:text-start text-center'>{data.title}</h1>
+        <div className='flex flex-row flex-wrap justify-center gap-10 gap-y-6'>
             {
                 data.options.map((category, index) => {
                     return (
-                        <article className='flex flex-col justify-center items-center gap-2' key={index} >
+                        <article className='w-40 p-4 aspect-square rounded-full bg-color-3 shadow-md shadow-color-sombra flex flex-col justify-center items-center hover:scale-110 transition-all duration-20000' key={index} >
                             <img 
-                                src="./categories/mando.webp"
+                                src={category.image}
                                 className='w-28 rounded-full'
                                 alt="Mando" />
                             <p className='font-semibold'>{category.name}</p>

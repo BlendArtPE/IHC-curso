@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 const MainProducts = ({data}) => {
   return (
@@ -19,7 +20,7 @@ const MainProducts = ({data}) => {
                                     </div>
                                     <div className="flex justify-center  items-center gap-4">
                                         <a href="" className="font-semibold underline underline-offset-4">{option.buttons[0]}</a>
-                                        <a href="" className="bg-color-2 text-black font-bold rounded-full px-4 py-1">{option.buttons[1]}</a>
+                                        <Link to="/product"><a href="" className="bg-color-2 text-black font-bold rounded-full px-4 py-1">{option.buttons[1]}</a></Link>
                                     </div>
                                 </div>
                             )

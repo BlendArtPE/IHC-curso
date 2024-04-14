@@ -7,7 +7,7 @@ const MainProducts = ({data}) => {
         {data.map((products, index) => {
             return (
                 <section key={index} className='relative text-center'>
-                    <img className='lg:block hidden' src={products.options[0].image} alt="" />
+                    <img className='lg:block hidden w-screen' src={products.options[0].image} alt="" />
                     <img className='lg:hidden block w-screen' src={products.options[0].imageMB} alt="" />
                     
                     <div className={`lg:block hidden  absolute inset-y-1/3 ${index % 2 === 0 ? "right-20" : "left-20"} w-72 text-white`}>

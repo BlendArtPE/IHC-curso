@@ -18,7 +18,7 @@ const Main = ({ data }) => {
               className="lg:hidden block  h-screen object-cover md"
               alt="asd"
             />
-            <div className="absolute inset-y-1/2 w-full lg:flex hidden flex-row justify-between items-center px-6">
+            <div className="absolute inset-y-1/2 xl:left-10 w-full lg:flex hidden flex-row justify-between items-center px-6">
               
                 <div className="space-y-6">
                   <h1 className="text-6xl font-bold">{main.title}</h1>

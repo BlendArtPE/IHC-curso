@@ -26,7 +26,7 @@ const Nav = ({ data }) => {
             <i className={logo.logo}></i>
           </Link>);
         })}
-            <i className={data.burguer.logo}></i>
+            <i className={data.burguer.logo + " md:hidden block"}></i>
       </div>
     </header>
   );

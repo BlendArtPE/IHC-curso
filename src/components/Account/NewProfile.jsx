@@ -1,10 +1,11 @@
 import { useState } from "react";
 import Orders from "./Orders";
 import PersonalDateRead from "./PersonalDateRead";
+import Favourites from "./Favourites";
 
 const NewProfile = () => {
 
-  const [buttonOption, setButtonOption] = useState('1');
+  const [buttonOption, setButtonOption] = useState('3');
 
 
   return (
@@ -18,7 +19,7 @@ const NewProfile = () => {
         <p className="text-lg font-semibold">Jesús Daniel</p>
         <p className="text-lg font-semibold mb-2">Chuquillanqui Sevillano</p>
         <button onClick={() => setButtonOption('1')}
-        className={`w-full border-l-8 py-2 hover:border-blue-500 ${buttonOption === '1' ? "border-blue-500 bg-color-7" : ""} 
+        className={`w-full border-l-8 py-2 hover:border-blue-500 ${buttonOption === '1' ? " border-blue-600 bg-color-7" : ""} 
         border-transparent transition-all duration-200 hover:bg-color-7 flex justify-center `}>
           <div className="w-36 space-x-3 text-start">
             <i className="fa-solid fa-user"></i>
@@ -26,14 +27,16 @@ const NewProfile = () => {
           </div>
         </button>
         <button onClick={() => setButtonOption('2')}
-        className={`w-full border-l-8 py-2 hover:border-blue-500 ${buttonOption === '2' ? "border-blue-500 bg-color-7" : ""} 
+        className={`w-full border-l-8 py-2 hover:border-blue-500 ${buttonOption === '2' ? "border-blue-600 bg-color-7" : ""} 
         border-transparent transition-all duration-200 hover:bg-color-7 flex justify-center `}>
           <div className="w-36 space-x-2 text-start">
             <i className="fa-solid fa-truck"></i>
             <span>Mis pedidos</span>
           </div>
         </button>
-        <button className="w-full border-l-8 py-2 hover:border-blue-500 border-transparent transition-all duration-200 hover:bg-color-7 flex justify-center">
+        <button onClick={() => setButtonOption('3')}
+        className={`w-full border-l-8 py-2 hover:border-blue-500 ${buttonOption === '3' ? "border-blue-600 bg-color-7" : ""} 
+        border-transparent transition-all duration-200 hover:bg-color-7 flex justify-center `}>
           <div className="w-36 space-x-3 text-start">
             <i className="fa-solid fa-heart"></i>
             <span>Mis favoritos</span>
@@ -56,10 +59,11 @@ const NewProfile = () => {
         
         {buttonOption === '1' ?
           <PersonalDateRead /> :
-          <Orders />
+          buttonOption === '2' ?
+          <Orders /> :
+          <Favourites />
 
         }
-        {/* <PersonalDateRead /> */}
       </article>
     </section>
   );

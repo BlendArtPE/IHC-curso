@@ -1,10 +1,15 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
 const SignUp = () => {
+    const [safe, setSafe] = useState(true)
+
     return (
-      <section className="mt-20 lg:h-screen md:h-[50rem] flex">
+      <section className="mt-20 lg:h-screen md:h-[50rem] bg-[#F9F9F9] flex">
         <div className="flex-1 lg:flex hidden">
             <img src="./tech.webp" alt="" className="h-screen" />
         </div>
-        <form className="flex-1 flex justify-center items-center bg-[#F9F9F9] my-4">
+        <form className="flex-1 flex justify-center items-center  my-4">
             <div className="md:w-3/5 sm:w-4/5 w-5/6 flex flex-col ">
                 <h1 className="text-center text-4xl font-semibold mb-2">Regístrate</h1>
                 
@@ -20,23 +25,29 @@ const SignUp = () => {
                 </div>
 
 
-                <h3 className="text-xl mb-2">Correo electrónico</h3>
-                <input type="text" name="" className="p-2 mb-4 w-full text-sm border-2 rounded-md" placeholder="Ingresa tu correo" id="" />
+                <h3 className="text-xl mb-2">Contraseña</h3>
+                <div className="relative">
+                    <input type={safe ? "password" : "text"} name="" className="p-2 mb-4 w-full text-sm border-2 rounded-md" placeholder="Ingresa tu contraseña" id="" />
+                    <i onClick={() => setSafe(!safe)} className={`absolute inset-y-1/4 right-4 fa-regular ${safe ? "fa-eye-slash" : "fa-eye"}`}></i>
+                </div>
 
                 <h3 className="text-xl mb-2">Contraseña</h3>
                 <input type="text" name="" className="p-2 mb-4 w-full text-sm border-2 rounded-md" placeholder="Ingresa tu contraseña" id="" />
+
+                <h3 className="text-xl mb-2">Teléfono</h3>
+                <input type="text" name="" className="p-2 mb-4 w-full text-sm border-2 rounded-md" placeholder="Ingresa tu teléfono" id="" />
                 
-                <div className="flex justify-between items-center text-sm">
+                {/* <div className="flex justify-between items-center text-sm">
                     <div className="flex gap-1">
                         <input type="checkbox" name="" id="" />
                         <p>Recuérdame</p>
                     </div>
                     <a className="text-sky-500">¿Olvidaste tu contraseña?</a>
-                </div>
+                </div> */}
 
                 <button type="submit" className="w-full py-2 my-2 bg-black rounded-md text-white">Ingresar</button>
 
-                <p className="text-center">¿No tienes una cuenta? <a className="text-sky-500" href="">Regístrate</a></p>
+                <p className="text-center">¿Tienes una cuenta? <Link className="text-sky-500" to="/signin">Ingresa</Link></p>
 
                 <div className="flex items-center my-4">
                     <hr className="w-full"/>

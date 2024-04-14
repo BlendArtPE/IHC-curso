@@ -7,8 +7,8 @@
                 {"href": "/",  "name":"Inicio"},
                 {"href": "/",  "name":"Ofertas"},
                 {"href": "/",  "name":"Productos"},
-                {"href": "/",  "name":"Categorías"},
-                {"href": "/",  "name":"Extra"}
+                {"href": "/signin",  "name":"Ingresar"},
+                {"href": "/signup",  "name":"Registrar"}
             ],
             "extra": [
                 {"href": "/search", "name": "Buscar", "logo": "fa-solid fa-magnifying-glass"},

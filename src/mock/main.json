@@ -100,6 +100,7 @@
                         "title": "Serie Galaxy S24",
                         "subTitle": "¡Solo por lanzamiento!",
                         "image": "./p1.png",
+                        "imageMB": "./p1MB.png",
                         "text": "Con la serie S24, podrás dar rienda suelta a nuevos niveles de creatividad, productividad y posibilidades, empezando por el dispositivo más importante de tu vida. Tu teléfono inteligente.",
                         "buttons": [
                             "Más información",
@@ -122,6 +123,7 @@
                         "title": "Televisor Smart TV 65'' QLED 4K",
                         "subTitle": "¡Solo por lanzamiento!",
                         "image": "./p2.png",
+                        "imageMB": "./p2MB.png",
                         "text": "Tecnología Dual LED, un contraste mejorado gracias a la innovadora tecnología de retroiluminación.",
                         "buttons": [
                             "Más información",
@@ -144,6 +146,7 @@
                         "title": "Canon EOS R5 C",
                         "subTitle": "¡Solo por lanzamiento!",
                         "image": "./p3.png",
+                        "imageMB": "./p3MB.png",
                         "text": "Captura impresionantes vídeos 8K y fotos de 45 MP con nuestra cámara EOS Cinema más pequeña, preparada para todo.",
                         "buttons": [
                             "Más información",

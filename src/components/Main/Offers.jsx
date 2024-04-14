@@ -18,10 +18,10 @@ const Offers = ({ data }) => {
                   <>
                     <div className="relative">
                         <img className="rounded-2xl w-full" src={offers.imageMain} alt="A" />
-                        <div className="absolute inset-x-0 bottom-0 rounded-b-2xl text-center text-white bg-color-1 py-6">
-                            <h2 className="text-5xl font-semibold">Hasta 50% dscto.</h2>
-                            <h2 className="text-5xl font-semibold mb-2">¡Llévate todo!</h2>
-                            <p>Disfruta de descuentos exclusivos</p>
+                        <div className="absolute inset-x-0 bottom-0 rounded-b-2xl text-center text-white bg-color-1 md:py-6 py-2">
+                            <h2 className="md:text-5xl text-2xl font-semibold">Hasta 50% dscto.</h2>
+                            <h2 className="md:text-5xl text-2xl font-semibold mb-2">¡Llévate todo!</h2>
+                            <p className="md:text-base text-sm">Disfruta de descuentos exclusivos</p>
                         </div>
                     </div>
                     <div className="grid md:grid-cols-2 grid-cols-1 grid-rows-2 gap-5 *:rounded-2xl">

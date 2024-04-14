@@ -5,6 +5,7 @@ import Categories from "./Categories"
 import Offers from "./Offers"
 import MainProducts from "./MainProducts"
 import RecommendedProducts from "./RecommendedProducts"
+import Services from "../General/Services";
 
 const SectionMain = ({data}) => {
   return (
@@ -20,6 +21,7 @@ const SectionMain = ({data}) => {
         <div className="h-12"/>
         <RecommendedProducts data={data.sections.recommendedProducts} />
         <div className="h-12"/> 
+        <Services data={data.sections.footer}/>
     </>
   )
 }

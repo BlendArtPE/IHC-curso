@@ -21,11 +21,11 @@ function App() {
         </div>
         <Routes>
           <Route path="/" element={<SectionMain data={index}/>} />
-          <Route path="/product" element={<SectionProduct />} />
-          <Route path="/signin" element={<SignUp />} />
-          <Route path="/signup" element={<SignIn />} />
-          <Route path="/shopping-cart" element={<ShoppingCart />} />
-          <Route path="/account" element={<Account />} />
+          <Route path="/product" element={<SectionProduct data={index}/>} />
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/shopping-cart" element={<ShoppingCart data={index}/>} />
+          <Route path="/account" element={<Account data={index} />} />
         </Routes>
         <Footer data={index.sections.footer} />
     </>

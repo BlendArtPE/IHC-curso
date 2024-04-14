@@ -12,6 +12,9 @@ export default {
           '2': '#FFFFFF',
           '3': '#F0F0F0',
           '4': '#343434',
+          '5': '#1496EA',
+          '6': '#147FC5',
+          '7': '#585858',
           'sombra': '#525252',
           // Puedes agregar más colores según tus necesidades
         },

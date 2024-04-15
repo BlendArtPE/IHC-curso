@@ -5,7 +5,7 @@ const SignUp = () => {
     const [safe, setSafe] = useState(true)
 
     return (
-      <section className="mt-20 h-[40rem] bg-[#F9F9F9] flex">
+      <section className="xl:mt-0 lg:mt-20 md:mt-10 mt-10 h-screen bg-[#F9F9F9] flex">
         <div className="flex-1 lg:flex hidden">
             <img src="./tech.webp" alt="" className="h-full" />
         </div>

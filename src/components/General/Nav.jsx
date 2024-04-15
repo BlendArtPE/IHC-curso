@@ -1,9 +1,19 @@
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useState } from "react";
 
 const Nav = ({ data }) => {
+
+  const navLinkStyles = ({ isActive }) => {
+    return {
+        fontWeight: isActive ? '600' : 'normal',
+        textDecoration: isActive ? 'underline' : 'none',
+        textDecorationThickness: isActive ? '0.2em' : 'auto',
+        color: isActive? '#3b82f6' : 'white'
+    }
+}
+
   const [config, setConfig] = useState(false)
   return (
     <header className="flex flex-row justify-between items-center md:px-10 px-6 h-20 bg-color-1 text-color-2">
@@ -13,9 +23,10 @@ const Nav = ({ data }) => {
           {/* {data.image.logo} */}
         </Link>
         <nav>
-          <ul className="md:flex hidden flex-row font-medium gap-3">
+          <ul className="md:flex hidden flex-row gap-3">
             {data.navigation.map((nav, index) => {
-              return <Link key={index} to={nav.href} >{nav.name}</Link>;
+              return <NavLink style={navLinkStyles} key={index} to={nav.href} >{nav.name}</NavLink>;
+              
             })}
           </ul>
         </nav>

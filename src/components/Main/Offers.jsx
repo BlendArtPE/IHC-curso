@@ -11,13 +11,13 @@ const Offers = ({ data }) => {
                     )
             })}
         </ul> */}
-    <div className="mx-auto max-w-screen-xl grid xl:grid-cols-2 grid-cols-1 gap-5 px-4">
+    <div className="mx-auto max-w-screen-xl grid lg:grid-cols-2 grid-cols-1 gap-5 px-4">
       {
           data.subOffers.map((offers) => {
               return (
                   <>
                     <div className="relative">
-                        <img className="rounded-2xl w-full" src={offers.imageMain} alt="A" />
+                        <img className="rounded-2xl w-full xl:h-auto lg:h-[39rem] h-auto" src={offers.imageMain} alt="A" />
                         <div className="absolute inset-x-0 bottom-0 rounded-b-2xl text-center text-white bg-color-1 md:py-6 py-2">
                             <h2 className="md:text-5xl text-2xl font-semibold">Hasta 50% dscto.</h2>
                             <h2 className="md:text-5xl text-2xl font-semibold mb-2">¡Llévate todo!</h2>

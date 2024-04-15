@@ -5,7 +5,7 @@
             "image": {"href":"/", "img": "./logo.png", "alt": "SHOPP"},
             "navigation": [
                 {"href": "/",  "name":"Inicio"},
-                {"href": "/",  "name":"Ofertas"},
+                {"href": "/offers",  "name":"Ofertas"},
                 {"href": "/product",  "name":"Productos"}
             ],
             "extra": [

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const Categories = ({data}) => {
     
   return (
-    <section className='mx-auto xl:max-w-screen-lg max-w-screen-sm space-y-8 '>
+    <section className='mx-auto lg:max-w-screen-lg max-w-screen-sm space-y-8 px-4'>
         <h1 className=' text-2xl font-semibold md:text-start text-center'>{data.title}</h1>
         <div className='flex flex-row flex-wrap justify-center gap-10 gap-y-6'>
             {

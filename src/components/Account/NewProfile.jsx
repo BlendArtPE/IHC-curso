@@ -5,12 +5,12 @@ import Favourites from "./Favourites";
 
 const NewProfile = () => {
 
-  const [buttonOption, setButtonOption] = useState('3');
+  const [buttonOption, setButtonOption] = useState('1');
 
 
   return (
-    <section className="mx-auto  mt-20 max-w-screen-lg flex gap-4 mb-10">
-      <div className="h-[30rem] w-3/12 flex flex-col items-center bg-color-1 text-white rounded-b-2xl">
+    <section className="relative xl:mx-auto mx-4  mt-20 max-w-screen-lg flex justify-center gap-4 mb-10">
+      <div className="lg:static absolute left-0  h-[30rem] lg:w-3/12 md:w-4/12 w-9/12 flex flex-col items-center bg-color-1 text-white rounded-b-2xl">
         <img
           src="./perfil.png"
           className="w-28 mt-8 mb-4 rounded-full"
@@ -55,7 +55,7 @@ const NewProfile = () => {
         </button>
       </div>
 
-      <article className="w-9/12 rounded-b-2xl px-8">
+      <article className=" lg:w-9/12 w-full rounded-b-2xl lg:pl-8">
         
         {buttonOption === '1' ?
           <PersonalDateRead /> :

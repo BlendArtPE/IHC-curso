@@ -2,7 +2,7 @@ import React from "react";
 
 const PersonalDateRead = () => {
   return (
-    <div className="h-[30rem] bg-color-8 border-x border-b rounded-b-2xl border-color-9 p-4 ">
+    <div className="md:h-[30rem] bg-color-8 border-x border-b rounded-b-2xl border-color-9 p-4 ">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-2xl font-semibold">Datos Personales</h1>
         <button className="bg-sky-500 px-3 py-2 rounded-lg">
@@ -10,7 +10,7 @@ const PersonalDateRead = () => {
         </button>
       </div>
       <div className="space-y-4">
-        <div className="flex gap-6">
+        <div className="flex md:flex-row flex-col gap-6">
           <div className="w-full">
             <h3 className="text-lg font-medium pl-2 mb-2">Nombres</h3>
             <input
@@ -33,7 +33,7 @@ const PersonalDateRead = () => {
           </div>
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex md:flex-row flex-col gap-6">
           <div className="w-full">
             <h3 className="text-lg font-medium pl-2 mb-2">Email</h3>
             <input

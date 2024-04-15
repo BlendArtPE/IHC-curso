@@ -1,12 +1,15 @@
+import { useState } from "react"
+
 const Product = () => {
+    const [heart, setHearth] = useState(false)
   return (
-    <section className="mt-24 mx-auto xl:max-w-screen-lg lg:max-w-screen-md md:max-w-screen-sm  max-w-sm sm:px-0 px-4 border grid lg:grid-cols-2 grid-cols-1 gap-10">
+    <section className="mt-24 mx-auto xl:max-w-screen-lg lg:max-w-screen-md md:max-w-screen-sm  max-w-sm sm:px-0 px-4 grid lg:grid-cols-2 grid-cols-1 gap-10">
         <article className="flex flex-col justify-center lg:order-1 order-3">
             <div className="flex flex-col mb-4">
-                <p className="text-lg">APPLE</p>
+                <p className="text-base">APPLE</p>
                 <div className="flex justify-between">
                     <h1 className="text-3xl font-bold">iPhone 15 128GB</h1>
-                    <i className="fa-regular fa-heart text-2xl"></i>
+                    <i  onClick={() => setHearth(!heart)} className={`${heart ? "fa-solid" : "fa-regular"} hover:scale-110 transition-all duration-150 fa-heart text-2xl`}></i>
                 </div>
             </div>
             <p className="mb-4" >Experimenta la cúspide de la innovación con el iPhone 15 Pro Max. Equipado con eSIM, ofrece conectividad avanzada.</p>
@@ -30,13 +33,13 @@ const Product = () => {
                 </div>
                 <div className="flex flex-col justify-between items-end">
                     <p className="text-end text-sm">Número de compras: 300</p>
-                    <select className="text-start p-1 rounded-full border-2 border-color-1 w-[11.5rem] " name="" id="">
+                    {/* <select className="text-start p-1 rounded-full border-2 border-color-1 w-[11.5rem] " name="" id="">
                         <option  value="">Método de compra</option>
                         <option  value="">A</option>
                         <option  value="">B</option>
                         <option  value="">C</option>
                         <option  value="">D</option>
-                    </select>
+                    </select> */}
                 </div>
                 <button className="py-2 mt-4 rounded-full bg-color-1 text-color-2 font-semibold">Comprar Ahora</button>
                 <button className="py-2 mt-4 rounded-full border-2 border-color-1 font-semibold">Agregar al carrito</button>

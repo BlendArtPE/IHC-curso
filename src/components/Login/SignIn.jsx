@@ -33,7 +33,7 @@ const SignIn = () => {
 
                 <button type="submit" className="w-full py-2 my-2 bg-black rounded-md text-white">Ingresar</button>
 
-                <p className="text-center">¿No tienes una cuenta? <Link className="text-sky-500" to="/signup">Regístrate</Link></p>
+                <p className="text-center">¿No tienes una cuenta? <Link className="text-sky-500 hover:underline underline-offset-4" to="/signup">Regístrate</Link></p>
 
                 <div className="flex items-center my-4">
                     <hr className="w-full"/>

@@ -5,9 +5,9 @@ const SignUp = () => {
     const [safe, setSafe] = useState(true)
 
     return (
-      <section className="mt-20 lg:h-screen md:h-[50rem] bg-[#F9F9F9] flex">
+      <section className="mt-20 h-[40rem] bg-[#F9F9F9] flex">
         <div className="flex-1 lg:flex hidden">
-            <img src="./tech.webp" alt="" className="h-screen" />
+            <img src="./tech.webp" alt="" className="h-full" />
         </div>
         <form className="flex-1 flex justify-center items-center  my-4">
             <div className="md:w-3/5 sm:w-4/5 w-5/6 flex flex-col ">
@@ -47,7 +47,7 @@ const SignUp = () => {
 
                 <button type="submit" className="w-full py-2 my-2 bg-black rounded-md text-white">Ingresar</button>
 
-                <p className="text-center">¿Tienes una cuenta? <Link className="text-sky-500" to="/signin">Ingresa</Link></p>
+                <p className="text-center">¿Tienes una cuenta? <Link className="text-sky-500 hover:underline underline-offset-4" to="/signin">Ingresa</Link></p>
 
                 <div className="flex items-center my-4">
                     <hr className="w-full"/>

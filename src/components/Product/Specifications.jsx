@@ -1,20 +1,28 @@
 const Specifications = () => {
+  const specifications = [
+    ["Marca", "Apple"],
+    ["Memoria interna", "128 GB"],
+    ["Memoria RAM", "6 GB"],
+    ["Tipo de conector de carga", "USB-C"],
+    ["Red móvil", "5G"],
+    ["Con Bluetooth", "Sí"],
+    ["Con NFC", "Sí"],
+    ["Resolución de la cámara trasera principal", "48 Mpx"],
+  ]
   return (
-    <section className="flex-1">
-        <h3 className="mb-4">Especificaciones</h3>
-      <ul className="grid grid-cols-5 gap-4">
-        <li className="col-span-5 grid grid-cols-5 *:flex items-center">
-            <p className="col-span-2">Propiedad</p>
-            <p className="col-span-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nam recusandae nisi! Doloribus aliquam adipisci sequi asperiores nam temporibus! Distinctio!</p>
-        </li>
-        <li className="col-span-5 grid grid-cols-5 *:flex items-center">
-            <p className="col-span-2 ">Propiedad</p>
-            <p className="col-span-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nam recusandae nisi! Doloribus aliquam adipisci sequi asperiores nam temporibus! Distinctio!</p>
-        </li>
-        <li className="col-span-5 grid grid-cols-5 *:flex items-center">
-            <p className="col-span-2">Propiedad</p>
-            <p className="col-span-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nam recusandae nisi! Doloribus aliquam adipisci sequi asperiores nam temporibus! Distinctio!</p>
-        </li>
+    <section className="flex-1 ">
+        <h3 className="mb-4 text-lg font-semibold">Especificaciones</h3>
+      <ul className="grid grid-cols-5 bg-color-3 border rounded-md border-color-9">
+        {
+          specifications.map((property, index) => {
+            return (
+              <li key={index} className={`col-span-5 grid grid-cols-5 *:flex items-center first:rounded-t-md last:rounded-b-md ${index % 2 === 0 ? "bg-color-3" : "bg-color-2"} px-4 py-2`}>
+                  <p className="col-span-2 font-medium">{property[0]}</p>
+                  <p className="col-span-3 pl-8">{property[1]}</p>
+              </li>
+            )
+          } )
+        }
       </ul>
     </section>
   )

@@ -19,6 +19,9 @@ export default {
           '9': '#9FA3A8',
           '10':'#006C8B',
           'sombra': '#525252',
+          'rojoc': '#dc2d26',
+          'rojoh': '#b9221c',
+          'rojop': '#99201b',
           // Puedes agregar más colores según tus necesidades
         },
       },

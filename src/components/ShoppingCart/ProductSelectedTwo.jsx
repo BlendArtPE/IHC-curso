@@ -10,13 +10,13 @@ const ProductSelectedTwo = () => {
         <h4 className='w-full md:col-span-4 col-span-3 md:ml-8 ml-2'>Mando PlayStation 5</h4>
         <h4 className='w-full col-span-2 md:ml-4'>Cantidad</h4>
         <h4 className='w-full md:col-span-1 col-span-2'>Subtotal</h4>
-        <p className='w-full md:col-span-4 col-span-3 md:ml-8 ml-2 font-semibold'>S/. {price}.00</p>
+        <p className='w-full md:col-span-4 col-span-3 md:ml-8 ml-2 font-semibold'>s/. {price}.99</p>
         <div className='w-full col-span-2 flex flex-row items-start'>
-            <button onClick={() => setQuantity(quantity+1)} className='bg-color-1 rounded-lg w-8 md:h-8 font-bold'><i className="fa-solid fa-plus text-color-2"></i></button>
+            <button onClick={() => setQuantity(quantity+1)} className='bg-color-10 hover:bg-color-4 rounded-lg w-8 md:h-8 font-bold'><i className="fa-solid fa-minus text-color-2 "></i></button>
             <p className='w-8 md:h-8 font-bold flex items-center justify-center'>{quantity}</p>
-            <button onClick={() => setQuantity(quantity-1)} className='bg-color-1 rounded-lg w-8 md:h-8 font-bold'><i className="fa-solid fa-minus text-color-2"></i></button>
+            <button onClick={() => setQuantity(quantity-1)} className='bg-color-10 hover:bg-color-4 rounded-lg w-8 md:h-8 font-bold'><i className="fa-solid fa-plus text-color-2"></i></button>
         </div>
-        <p className='w-full md:col-span-1 col-span-2 font-semibold'>S/. {price*quantity}.00</p>
+        <p className='w-full md:col-span-1 col-span-2 font-semibold'>s/. {price*quantity}.99</p>
       </div>
     </article>
   )

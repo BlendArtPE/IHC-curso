@@ -37,21 +37,21 @@ const Price = () => {
       </div>
       <h3 className="text-lg font-semibold">Detalles del total</h3>
       <ul>
-        <li className="flex justify-between"><p>Total</p> <p>S/. 417.00</p></li>
-        <li className="flex justify-between"><p>Descuento</p> <p>S/. 17.00</p></li>
-        <li className="flex justify-between"><p>Cargos por Entrega</p> <p>S/. 17.00</p></li>
+        <li className="flex justify-between"><p>Total</p> <p>s/. 417.99</p></li>
+        <li className="flex justify-between"><p>Descuento</p> <p>s/. 17.99</p></li>
+        <li className="flex justify-between"><p>Cargos por Entrega</p> <p>s/. 17.99</p></li>
       </ul>
       <hr />
       <div className="flex justify-between">
         <h4 className="text-lg font-semibold">Total</h4>
-        <h4>S/. 417.00</h4>
+        <h4>s/. 417.99</h4>
       </div>
       <div className="flex items-center gap-2">
         <input type="checkbox" name="" id="" />
         <p className="text-start text-xs">Estoy de acuerdo con los <a href="" className="text-[#00B0FC] hover:underline">Términos y condiciones </a></p>
         
       </div>
-      <a href="" className="flex justify-center bg-color-5 hover:bg-color-6 text-white py-2 rounded-lg font-semibold">Realizar pago</a>
+      <a href="" className="flex justify-center bg-color-5 hover:bg-color-6 text-white py-2 rounded-lg font-semibold shadow-md">Realizar pago</a>
     </form>
   )
 }

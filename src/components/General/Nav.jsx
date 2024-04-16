@@ -10,13 +10,13 @@ const Nav = ({ data }) => {
         fontWeight: isActive ? '600' : 'normal',
         textDecoration: isActive ? 'underline' : 'none',
         textDecorationThickness: isActive ? '0.2em' : 'auto',
-        color: isActive? '#3b82f6' : 'white'
+        color: isActive? '#00E3F9' : 'white'
     }
 }
 
   const [config, setConfig] = useState(false)
   return (
-    <header className="flex flex-row justify-between items-center md:px-10 px-6 h-20 bg-color-1 text-color-2">
+    <header className="flex flex-row justify-between items-center md:px-10 px-6 h-20 bg-gradient-to-r from-color-1 to-color-10 text-color-2 sha">
       <div className="flex flex-row items-center gap-10">
         <Link className="font-bold text-lg" to={data.image.href}>
           <img src={data.image.img} alt={data.image.alt} />
@@ -41,11 +41,11 @@ const Nav = ({ data }) => {
           <i onClick={() => setConfig(!config)} className="fa-solid fa-user"></i>
           <i className={data.burguer.logo + " md:hidden block"}></i>
           <ul className={`absolute text-black z-30 ${config ? "flex" : "hidden"} flex-col -bottom-36
-          bg-color-3 w-24 rounded-xl
+          bg-color-3 w-24 rounded-sm
           `}>
-            <Link onClick={() => setConfig(false)} to="/signin" className="hover:bg-color-9 px-2 py-1 rounded-t-xl">Ingresar</Link>
+            <Link onClick={() => setConfig(false)} to="/signin" className="hover:bg-color-9 px-2 py-1 rounded-t-sm">Ingresar</Link>
             <Link onClick={() => setConfig(false)} to="/signup" className="hover:bg-color-9 px-2 py-1">Registrar</Link>
-            <Link onClick={() => setConfig(false)} to="/account" className="hover:bg-color-9 px-2 py-1 rounded-b-xl">Cuenta</Link>
+            <Link onClick={() => setConfig(false)} to="/account" className="hover:bg-color-9 px-2 py-1 rounded-t-sm">Cuenta</Link>
           </ul>
       </div>
     </header>

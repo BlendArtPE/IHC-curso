@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const Services = ({data}) => {
     
   return (
-    <section className='bg-color-1'>
+    <section className='bg-color-10'>
         <div className='mx-auto xl:max-w-screen-lg lg:max-w-screen-md max-w-screen-sm grid lg:grid-cols-4 grid-cols-2 text-white py-8 gap-8 px-4'>
             {data.options.map((option, index) => {
                 return (

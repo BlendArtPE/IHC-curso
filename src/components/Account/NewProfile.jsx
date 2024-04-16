@@ -5,12 +5,17 @@ import Favourites from "./Favourites";
 
 const NewProfile = () => {
 
-  const [buttonOption, setButtonOption] = useState('1');
+  const [buttonOption, setButtonOption] = useState('3');
+  const [visible, setVisible] = useState(false)
 
+  const toggleVisibility = () => {
+    setVisible(!visible);
+  };
 
   return (
     <section className="relative xl:mx-auto mx-4  mt-20 max-w-screen-lg flex justify-center gap-4 mb-10">
-      <div className="lg:static absolute left-0  h-[30rem] lg:w-3/12 md:w-4/12 w-9/12 flex flex-col items-center bg-color-1 text-white rounded-b-2xl">
+      <div className={`lg:static absolute left-0 z-50  h-[30rem] lg:w-3/12 md:w-4/12 w-9/12 ${visible ? "flex" : "hidden"} flex-col items-center bg-color-1 text-white rounded-b-2xl`}>
+      <i onClick={toggleVisibility} className="absolute lg:hidden flex bg-color-2 px-2 py-1 text-color-1 rounded-lg right-4 top-2 fa-solid fa-chevron-left"></i>
         <img
           src="./perfil.png"
           className="w-28 mt-8 mb-4 rounded-full"
@@ -58,10 +63,10 @@ const NewProfile = () => {
       <article className=" lg:w-9/12 w-full rounded-b-2xl lg:pl-8">
         
         {buttonOption === '1' ?
-          <PersonalDateRead /> :
+          <PersonalDateRead  toggleVisibility={toggleVisibility} /> :
           buttonOption === '2' ?
-          <Orders /> :
-          <Favourites />
+          <Orders toggleVisibility={toggleVisibility}/> :
+          <Favourites toggleVisibility={toggleVisibility} />
 
         }
       </article>

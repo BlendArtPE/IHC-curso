@@ -1,9 +1,11 @@
+import PropTypes from "prop-types";
 import React from "react";
 
-const PersonalDateRead = () => {
+const PersonalDateRead = ({ toggleVisibility }) => {
   return (
     <div className="md:h-[30rem] bg-color-8 border-x border-b rounded-b-2xl border-color-9 p-4 ">
       <div className="flex justify-between items-center mb-4">
+        <button onClick={toggleVisibility} className="bg-color-1 text-color-2 px-2 py-1 rounded-lg"><i className="fa-solid fa-bars-staggered"></i></button>
         <h1 className="text-2xl font-semibold">Datos Personales</h1>
         <button className="bg-sky-500 px-3 py-2 rounded-lg">
           <i className="fa-solid fa-pen text-white text-sm"></i>
@@ -82,3 +84,7 @@ const PersonalDateRead = () => {
 };
 
 export default PersonalDateRead;
+
+PersonalDateRead.propTypes = {
+  toggleVisibility: PropTypes.func.isRequired,
+};

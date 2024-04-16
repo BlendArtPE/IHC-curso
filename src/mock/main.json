@@ -6,7 +6,8 @@
             "navigation": [
                 {"href": "/",  "name":"Inicio"},
                 {"href": "/offers",  "name":"Ofertas"},
-                {"href": "/product",  "name":"Productos"}
+                {"href": "/product",  "name":"Productos"},
+                {"href": "/catalogue",  "name":"Catálogo"}
             ],
             "extra": [
                 {"href": "/search", "name": "Buscar", "logo": "fa-solid fa-magnifying-glass"},

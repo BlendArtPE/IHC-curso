@@ -5,11 +5,11 @@ const SignUp = () => {
     const [safe, setSafe] = useState(true)
 
     return (
-      <section className="xl:mt-0 lg:mt-20 md:mt-10 mt-10 h-screen bg-[#F9F9F9] flex">
+      <section className="xl:mt-0 lg:mt-20 md:mt-10 mt-10 xl:h-screen lg:h-auto md:h-screen bg-[#F9F9F9] flex">
         <div className="flex-1 lg:flex hidden">
             <img src="./tech.webp" alt="" className="h-full" />
         </div>
-        <form className="flex-1 flex justify-center items-center  my-4">
+        <form className="flex-1 flex justify-center items-center mt-8 mb-4">
             <div className="md:w-3/5 sm:w-4/5 w-5/6 flex flex-col ">
                 <h1 className="text-center text-4xl font-semibold mb-2">Regístrate</h1>
                 
@@ -45,7 +45,7 @@ const SignUp = () => {
                     <a className="text-sky-500">¿Olvidaste tu contraseña?</a>
                 </div> */}
 
-                <button type="submit" className="w-full py-2 my-2 bg-black rounded-md text-white">Ingresar</button>
+                <Link to="/signin" className="w-full py-2 text-center my-2 bg-black rounded-md text-white">Registrar</Link>
 
                 <p className="text-center">¿Tienes una cuenta? <Link className="text-sky-500 hover:underline underline-offset-4" to="/signin">Ingresa</Link></p>
 

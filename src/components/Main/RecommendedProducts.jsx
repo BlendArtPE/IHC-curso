@@ -8,8 +8,8 @@ const RecommendedProducts = ({data}) => {
         <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-4'>
             {data.products.map((product, index) => {
                 return (
-                    <article key={index} className='flex flex-col justify-evenly items-center text-center rounded-2xl bg-color-3 shadow-color-sombra shadow-sm h-[23rem] p-4'>
-                        <img src={product.image} className='w-32' alt="" />
+                    <article key={index} className='group flex flex-col justify-evenly items-center text-center rounded-2xl bg-color-3 shadow-color-sombra shadow-sm h-[23rem] p-4'>
+                        <img src={product.image} className='w-32 group-hover:scale-110' alt="" />
                         <h3 className='text-xl font-bold'>{product.title}</h3>
                         {/* <p>{product.stars} estrellas</p> */}
                             <p className='text-3xl font-semibold mb-2'>{product.price}</p>

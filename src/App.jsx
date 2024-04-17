@@ -12,6 +12,7 @@ import SectionProduct from "./components/Product/SectionProduct"
 import Account from "./components/Account/Account"
 import NotFound from "./components/General/NotFound"
 import Catalogue from "./components/Catalogue/Catalogue"
+import SectionOffers from "./components/Offers/SectionOffers"
 function App() {
 
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="signin" element={<SignIn />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="catalogue" element={<Catalogue />} />
+          <Route path="offers" element={<SectionOffers data={index} />} />
           <Route path="shopping-cart" element={<ShoppingCart data={index}/>} />
           <Route path="account" element={<Account data={index} />} />
           <Route path="*" element={<NotFound />} />

@@ -1,6 +1,7 @@
 import { useState } from "react"
+import PropTypes from "prop-types";
 
-const Price = () => {
+const Price = ({ toggleVisibility }) => {
   const [card, setCard] = useState("")
 
   const handleClick = (event, cardType) => {
@@ -51,9 +52,13 @@ const Price = () => {
         <p className="text-start text-xs">Estoy de acuerdo con los <a href="" className="text-[#00B0FC] hover:underline">Términos y condiciones </a></p>
         
       </div>
-      <a href="" className="flex justify-center bg-color-5 hover:bg-color-6 text-white py-2 rounded-lg font-semibold shadow-md">Realizar pago</a>
+      <button onClick={toggleVisibility} className="w-full flex justify-center bg-color-5 hover:bg-color-6 text-white py-2 rounded-lg font-semibold shadow-md">Realizar pago</button>
     </form>
   )
 }
 
 export default Price
+
+Price.propTypes = {
+  toggleVisibility: PropTypes.func.isRequired,
+};
